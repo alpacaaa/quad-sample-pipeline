@@ -1,0 +1,9 @@
+{
+  "name": "quad-sample-pipeline",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "left-pad": "^1.3.0"
+  }
+}
