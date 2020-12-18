@@ -2,7 +2,7 @@ steps:
   - name: test
     image: node:15.4.0-alpine
     commands:
-      - npm install
+      - npm ci
       - npm test
 
   - name: check workspace
