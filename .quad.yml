@@ -1,0 +1,11 @@
+steps:
+  - name: test
+    image: node:15.4.0-alpine
+    commands:
+      - npm install
+      - npm test
+
+  - name: check workspace
+    image: busybox
+    commands:
+      - cat result | grep "oook"
