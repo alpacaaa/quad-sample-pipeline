@@ -9,3 +9,10 @@ steps:
     image: busybox
     commands:
       - cat result | grep "oook"
+
+  - name: a new step
+    image: busybox
+    commands:
+      - echo "workspace is shared between steps"
+      - ls
+      - echo "this will be triggered via webhooks"
